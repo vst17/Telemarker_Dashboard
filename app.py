@@ -77,7 +77,7 @@ Telemarkers = Base.classes.telemarker_db
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index.html")
+    return render_template("index1.html")
 
 @app.route("/id")
 def id():
